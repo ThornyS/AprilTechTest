@@ -1,6 +1,6 @@
 # LegalZoomTechTest
 
-For installation run
+### Installation
 
 ```bash
 cd /path/to/repo/
@@ -12,7 +12,7 @@ Now either run locally on port 8000 with
 ```bash
 php artisan serve
 ```
-or configure a web serve to point its document root to /path/to/repo/public e.g. for Apache2 
+or configure a web serve to point its document root to /path/to/repo/public e.g. for Apache2
 
 ```
 <VirtualHost *:80>
@@ -22,4 +22,9 @@ or configure a web serve to point its document root to /path/to/repo/public e.g.
         AllowOverride all
     </Directory>
 </VirtualHost>
+```
+### Testing
+```bash
+cd /path/to/repo
+./vendor/run/phpunit
 ```
