@@ -26,5 +26,5 @@ or configure a web serve to point its document root to /path/to/repo/public e.g.
 ### Testing
 ```bash
 cd /path/to/repo
-./vendor/run/phpunit
+./vendor/bin/phpunit
 ```
